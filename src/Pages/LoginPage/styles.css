@@ -1,0 +1,86 @@
+#title {
+    font-family: 'Tilt Prism', cursiva;
+}
+#login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 2rem;
+  }
+  #login .form {
+      background-color: rgba(255, 206, 206, 0.753);
+      padding: 0.5rem;
+      width: 100%;
+      max-width: 480px;
+      margin-bottom: 50px;
+  }
+ 
+  #login .field{
+      padding-bottom: 0.5rem;
+  }
+  
+  #login .field label{
+      display: block;
+  }
+  #login .field input{
+      width: 450px;
+  
+  }
+  #login.actions{
+      text-align: center;
+      margin-top: 1rem;
+  }
+  #login {
+      background-color: rgb(139, 139, 135);
+  }
+  
+  @keyframes rainbow {
+      100%,
+      0% {
+          color: rgb(255, 0, 0);
+      }
+      8% {
+          color: rgb(255, 127, 0);
+      }
+      16% {
+          color: rgb(255, 255, 0);
+      }
+      25% {
+          color: rgb(127, 255, 0);
+      }
+      33% {
+          color: rgb(0, 255, 0);
+      }
+      41% {
+          color: rgb(0, 255, 127);
+      }
+      50% {
+          color: rgb(0, 255, 255);
+      }
+      58% {
+          color: rgb(0, 127, 255);
+      }
+      66% {
+          color: rgb(0, 0, 255);
+      }
+      75% {
+          color: rgb(127, 0, 255);
+      }
+      83% {
+          color: rgb(255, 0, 255);
+      }
+      91% {
+          color: rgb(255, 0, 127);
+      }
+    }
+    
+    
+    
+    span {
+      font-size: 36px;
+      
+      animation: rainbow 14s linear infinite forwards;
+    }
+    
