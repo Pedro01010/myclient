@@ -31,7 +31,8 @@ const LoginPage = () => {
                     <button type="submit" style={{'borderRadius': "10px"}}>Entrar</button>
                 </div>
                 <div className="img">
-                    <a href="https://www.instagram.com/">
+                    
+                    <a href="https://www.instagram.com/" >
                         <img src={imagens} alt="logo" style={{
                             width: "25px",
                             textAlign: "center",
